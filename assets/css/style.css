@@ -41,6 +41,15 @@ height: 45%;
 
 }
 
+.about {
+	height: 70%;
+	background-image: url("../images/about/jumbo.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+
+
 h1 {
 	font-size: 40px;
 	margin-bottom: 10px;
@@ -62,6 +71,19 @@ h2 {
 
 #header-img {
 	width: 20%;
+}
+
+#about-img {
+	width: 40%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+#profile-img {
+	width: 80%;
 }
 
 
@@ -153,10 +175,19 @@ padding: 30px;
 	.navbar-toggler {
 		margin-left: 30px;
 	}
+
+	#about-img {
+		width: 60%;
+	}
+	
 }
 
 @media screen and (max-width: 590px) {
 	#header-img {
 		width: 60%;
 	}
+
+	#about-img {
+	width: 80%;
+}
 }
